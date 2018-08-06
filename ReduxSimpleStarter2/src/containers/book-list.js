@@ -19,9 +19,8 @@ class BookList extends Component {
 
 function mapStatetoProps(state) {
   return {
-    books: state.books;
+    books: state.books
   };
 }
-
 
 export default connect(mapStatetoProps)(BookList);
